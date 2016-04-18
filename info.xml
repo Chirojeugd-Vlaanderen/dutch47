@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<extension key="be.chiro.civi.dutch47" type="module">
+  <file>dutch47</file>
+  <name>dutch47</name>
+  <description>Dutch translation of untranslated strings in CiviCRM 4.7</description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>Johan Vervloet</author>
+    <email>helpdesk@chiro.be</email>
+  </maintainer>
+  <urls>
+    <url desc="Main Extension Page">https://github.com/Chirojeugd-Vlaanderen/dutch47</url>
+    <url desc="Documentation">https://github.com/Chirojeugd-Vlaanderen/dutch47</url>
+    <url desc="Support">https://github.com/Chirojeugd-Vlaanderen/dutch47</url>
+    <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
+  </urls>
+  <releaseDate>2016-04-18</releaseDate>
+  <version>0.1</version>
+  <develStage>alpha</develStage>
+  <compatibility>
+    <ver>4.7</ver>
+  </compatibility>
+  <comments>
+      This module is a workaround for transifex being broken for CiviCRM 4.7. See
+      https://civicrm.stackexchange.com/questions/10108/how-to-fix-translations-in-civicrm-4-7
+      https://issues.civicrm.org/jira/browse/CRM-17737
+      https://forum.civicrm.org/index.php?topic=37086.0
+      https://www.transifex.com/civicrm/civicrm/
+  </comments>
+  <civix>
+    <namespace>CRM/Dutch47</namespace>
+  </civix>
+</extension>
