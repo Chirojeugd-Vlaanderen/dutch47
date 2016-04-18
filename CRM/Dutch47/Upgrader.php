@@ -74,7 +74,7 @@ class CRM_Dutch47_Upgrader extends CRM_Dutch47_Upgrader_Base {
     // Translate addresses. The below covers 99% of our contacts ;-)
     'BELGIUM' => 'België',
     
-    // Find participants
+    // Participant actions
     'Cancel registration' => 'Inschrijving annuleren',
     'Delete participants from event' => 'Deelnemers uitschrijven voor evenement',
     'Email - send now' => 'E-mail - nu verzenden',
@@ -83,6 +83,19 @@ class CRM_Dutch47_Upgrader extends CRM_Dutch47_Upgrader_Base {
     'PDF letter - print for participants' => 'PDF-brief - afdrukken voor deelnemers',
     'Participant status - change (emails sent)' => 'Deelnemersstatus - wijzigen (e-mails verzonden)',
     'Update multiple participants' => 'Meerdere deelnemers bijwerken',
+    
+    // Contribution actions
+    'Export contributions' => 'Bijdragen exporteren',
+    'Receipts - print or email' => 'Ontvangstbewijzen - afdrukken of mailen',
+    'Thank-you letters - print or email' => 'Bedankbrieven - afdrukken of mailen',
+    'Update multiple contributions' => 'Meerdere bijdragen bijwerken',
+    'Update pending contribution status' => 'Status bijdragen in behandeling bijwerken',
+    
+    // Membership actions
+    'Export members' => 'Leden exporteren',
+    // In our organisation, memberships are translated as 'aansluitingen',
+    // but we'll stick to the CiviCRM defaults in this extension :-)
+    'Update multiple memberships' => 'Meerdere lidmaatschappen bijwerken',
   );
   
   // These are the translated option values of the option group
