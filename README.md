@@ -18,3 +18,8 @@ time being, I created this ugly extension that just makes sure that the Dutch
 translation of CiviCRM is OK.
 
 I hope that it will soon be obsolete :-)
+
+## New versions
+
+If you install a new version of this extension, just disable it and enable
+it again.

@@ -73,6 +73,16 @@ class CRM_Dutch47_Upgrader extends CRM_Dutch47_Upgrader_Base {
     
     // Translate addresses. The below covers 99% of our contacts ;-)
     'BELGIUM' => 'België',
+    
+    // Find participants
+    'Cancel registration' => 'Inschrijving annuleren',
+    'Delete participants from event' => 'Deelnemers uitschrijven voor evenement',
+    'Email - send now' => 'E-mail - nu verzenden',
+    'Export participants' => 'Deelnemers exporteren',
+    'Name badges - print' => 'Naambadges - afdrukken',
+    'PDF letter - print for participants' => 'PDF-brief - afdrukken voor deelnemers',
+    'Participant status - change (emails sent)' => 'Deelnemersstatus - wijzigen (e-mails verzonden)',
+    'Update multiple participants' => 'Meerdere deelnemers bijwerken',
   );
   
   // These are the translated option values of the option group
