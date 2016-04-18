@@ -70,6 +70,9 @@ class CRM_Dutch47_Upgrader extends CRM_Dutch47_Upgrader_Base {
 
     // Search contributions
     'Date Received' => 'Ontvangstdatum',
+    
+    // Translate addresses. The below covers 99% of our contacts ;-)
+    'BELGIUM' => 'België',
   );
   
   // These are the translated option values of the option group
