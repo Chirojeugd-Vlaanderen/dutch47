@@ -19,7 +19,20 @@ translation of CiviCRM is OK.
 
 I hope that it will soon be obsolete :-)
 
+## How it works
+
+The core of this extension is in it's enable and disable hooks, they are
+defined in [Upgrader.php](CRM/Dutch47/Upgrader.php). Basically the
+enable hook adds some word replacements, and changes the labels of
+untranslated option values. The disable hook reverts the changes.
+
 ## New versions
 
 If you install a new version of this extension, just disable it and enable
 it again.
+
+## How to help?
+
+If you can, please help fixing 
+[CRM-17737](https://issues.civicrm.org/jira/browse/CRM-17737).
+But if you cannot do that, I welcome pull requests.
