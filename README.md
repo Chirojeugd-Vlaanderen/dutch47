@@ -21,6 +21,9 @@ I hope that it will soon be obsolete :-)
 
 ## How it works
 
+(I assume your CiviCRM instance has only one domain, and you already changed the
+CiviCRM language to Dutch.)
+
 The core of this extension is in it's enable and disable hooks, they are
 defined in [Upgrader.php](CRM/Dutch47/Upgrader.php). Basically the
 enable hook adds some word replacements, and changes the labels of
