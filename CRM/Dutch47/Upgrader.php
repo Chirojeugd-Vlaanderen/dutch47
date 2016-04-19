@@ -98,69 +98,69 @@ class CRM_Dutch47_Upgrader extends CRM_Dutch47_Upgrader_Base {
     'Update multiple memberships' => 'Meerdere lidmaatschappen bijwerken',
   );
   
-  // These are the translated option values of the option group
-  // 'relative date filters'.
+  // Option values to be translated:
   protected $option_value_translations = array (
-    'This week' => 'Deze week',
-    // 'Kalendermaand' sounds strange in Dutch.
-    'This calendar month' => 'Deze maand',
-    'This quarter' => 'Dit kwartaal',
-    'This calendar year' => 'Dit kalenderjaar',
-    'Previous week' => 'Vorige week',
-    'Previous calendar month' => 'Vorige maand',
-    'Previous quarter' => 'Vorig kwartaal',
-    'Previous calendar year' => 'Vorig kalenderjaar',
-    'Last 7 days including today' => 'Afgelopen 7 dagen, vandaag inbegrepen',
-    'Last 30 days including today' => 'Afgelopen 30 dagen, vandaag inbegrepen',
-    'Last 60 days including today' => 'Afgelopen 60 dagen, vandaag inbegrepen',
-    'Last 90 days including today' => 'Afgelopen 90 dagen, vandaag inbegrepen', 
-    'Last 12 months including today' => 'Afgelopen 12 maanden, vandaag inbegrepen',
-    'Last 2 years including today' => 'Afgelopen 2 jaar, vandaag inbegrepen',
-    'Last 3 years including today' => 'Afgelopen 3 jaar, vandaag inbegrepen',
-    'Next week' => 'Volgende week',
-    'Next calendar month' => 'Volgende maand',
-    'Next quarter' => 'Volgend kwartaal',
-    'Next fiscal year' => 'Volgend fiscaal jaar',
-    'Next calendar year' => 'Volgend kalenderjaar',
-    'Next 7 days including today' => 'Komende 7 dagen, vandaag inbegrepen',
-    'Next 30 days including today' => 'Komende 30 dagen, vandaag inbegrepen',
-    'Next 60 days including today' => 'Komende 60 dagen, vandaag inbegrepen',
-    'Next 90 days including today' => 'Komende 90 dagen, vandaag inbegrepen',
-    'Next 12 months including today' => 'Komende 12 maanden, vandaag inbegrepen',
-    // I have no clue what the below even mean:
-    // 'current week to-date', 'current calendar month to-date',
-    // 'current quarter to-date', 'current calendar year to-date'
-    
-    // All the below might be wrong; I am tu dumb for this. X-S
-    'To end of yesterday' => 'Voor vandaag',
-    'To end of previous week' => 'Voor deze week',
-    'To end of previous calendar month' => 'Voor deze maand',
-    'To end of previous quarter' => 'Voor dit kwartaal',
-    'To end of previous calendar year' => 'Voor dit kalenderjaar',
-    'From start of current day' => 'Vanaf vandaag',
-    'From start of current week' => 'Vanaf deze week',
-    'From start of current calendar month' => 'Vanaf deze maand',
-    'From start of current quarter' => 'Vanaf dit kwartaal',
-    'From start of current calendar year' => 'Vanaf dit kalenderjaar',
-    'To end of current week' => 'Tot eind deze week',
-    'To end of current calendar month' => 'Tot eind deze maand',
-    'To end of current quarter' => 'Tot eind dit kwartaal',
-    'To end of current calendar year' => 'Tot eind dit kalenderjaar',
-    'Previous 2 days' => 'Vorige 2 dagen',
-    'Previous 2 weeks' => 'Vorige 2 weken',
-    'Previous 2 calendar months' => 'Vorige 2 maanden',
-    'Previous 2 quarters' => 'Vorige half jaar',
-    'Previous 2 calendar years' => 'Vorige 2 kalenderjaren',
-    'Day prior to yesterday' => 'Eergisteren',
-    'Week prior to previous week' => 'Week voor vorige week',
-    'Month prior to previous calendar month' => 'Maand voor vorige maand',
-    'Quarter prior to previous quarter' => 'Kwartaal voor vorig kwartaal',
-    'Year prior to previous calendar year' => 'Jaar voor vorig kalenderjaar',
-    'From end of previous week' => 'Vanaf deze week',
-    'From end of previous calendar month' => 'Vanaf deze maand',
-    'From end of previous quarter' => 'Vanaf dit kwartaal',
-    'From end of previous calendar year' => 'Vanaf dit jaar',    
-  );
+    'relative_date_filters' => array(
+      'This week' => 'Deze week',
+      // 'Kalendermaand' sounds strange in Dutch.
+      'This calendar month' => 'Deze maand',
+      'This quarter' => 'Dit kwartaal',
+      'This calendar year' => 'Dit kalenderjaar',
+      'Previous week' => 'Vorige week',
+      'Previous calendar month' => 'Vorige maand',
+      'Previous quarter' => 'Vorig kwartaal',
+      'Previous calendar year' => 'Vorig kalenderjaar',
+      'Last 7 days including today' => 'Afgelopen 7 dagen, vandaag inbegrepen',
+      'Last 30 days including today' => 'Afgelopen 30 dagen, vandaag inbegrepen',
+      'Last 60 days including today' => 'Afgelopen 60 dagen, vandaag inbegrepen',
+      'Last 90 days including today' => 'Afgelopen 90 dagen, vandaag inbegrepen', 
+      'Last 12 months including today' => 'Afgelopen 12 maanden, vandaag inbegrepen',
+      'Last 2 years including today' => 'Afgelopen 2 jaar, vandaag inbegrepen',
+      'Last 3 years including today' => 'Afgelopen 3 jaar, vandaag inbegrepen',
+      'Next week' => 'Volgende week',
+      'Next calendar month' => 'Volgende maand',
+      'Next quarter' => 'Volgend kwartaal',
+      'Next fiscal year' => 'Volgend fiscaal jaar',
+      'Next calendar year' => 'Volgend kalenderjaar',
+      'Next 7 days including today' => 'Komende 7 dagen, vandaag inbegrepen',
+      'Next 30 days including today' => 'Komende 30 dagen, vandaag inbegrepen',
+      'Next 60 days including today' => 'Komende 60 dagen, vandaag inbegrepen',
+      'Next 90 days including today' => 'Komende 90 dagen, vandaag inbegrepen',
+      'Next 12 months including today' => 'Komende 12 maanden, vandaag inbegrepen',
+      // I have no clue what the below even mean:
+      // 'current week to-date', 'current calendar month to-date',
+      // 'current quarter to-date', 'current calendar year to-date'
+
+      // All the below might be wrong; I am tu dumb for this. X-S
+      'To end of yesterday' => 'Voor vandaag',
+      'To end of previous week' => 'Voor deze week',
+      'To end of previous calendar month' => 'Voor deze maand',
+      'To end of previous quarter' => 'Voor dit kwartaal',
+      'To end of previous calendar year' => 'Voor dit kalenderjaar',
+      'From start of current day' => 'Vanaf vandaag',
+      'From start of current week' => 'Vanaf deze week',
+      'From start of current calendar month' => 'Vanaf deze maand',
+      'From start of current quarter' => 'Vanaf dit kwartaal',
+      'From start of current calendar year' => 'Vanaf dit kalenderjaar',
+      'To end of current week' => 'Tot eind deze week',
+      'To end of current calendar month' => 'Tot eind deze maand',
+      'To end of current quarter' => 'Tot eind dit kwartaal',
+      'To end of current calendar year' => 'Tot eind dit kalenderjaar',
+      'Previous 2 days' => 'Vorige 2 dagen',
+      'Previous 2 weeks' => 'Vorige 2 weken',
+      'Previous 2 calendar months' => 'Vorige 2 maanden',
+      'Previous 2 quarters' => 'Vorige half jaar',
+      'Previous 2 calendar years' => 'Vorige 2 kalenderjaren',
+      'Day prior to yesterday' => 'Eergisteren',
+      'Week prior to previous week' => 'Week voor vorige week',
+      'Month prior to previous calendar month' => 'Maand voor vorige maand',
+      'Quarter prior to previous quarter' => 'Kwartaal voor vorig kwartaal',
+      'Year prior to previous calendar year' => 'Jaar voor vorig kalenderjaar',
+      'From end of previous week' => 'Vanaf deze week',
+      'From end of previous calendar month' => 'Vanaf deze maand',
+      'From end of previous quarter' => 'Vanaf dit kwartaal',
+      'From end of previous calendar year' => 'Vanaf dit jaar',    
+  ));
 
   /**
    * Installs word replacements.
@@ -189,25 +189,44 @@ class CRM_Dutch47_Upgrader extends CRM_Dutch47_Upgrader_Base {
       }
     }
     
-    // translate option values for relative_date_filters
-    $option_group_result = civicrm_api3('OptionGroup', 'get', array(
-      'name' => 'relative_date_filters'
-    ));
-    if (!$option_group_result['is_error'] && $option_group_result['count'] == 1) {
-      $option_group_id = $option_group_result['id'];
-      foreach ($this->option_value_translations as $key => $value) {
-        $update_result = civicrm_api3('OptionValue', 'get', array(
-          'option_group_id' => $option_group_id,
-          'label' => $key,
-          'api.OptionValue.create' => array(
-            'id' => '$value.id',
-            'label' => $value,
-          )
-        ));
-        $result &= !$update_result['is_error'];
+    foreach ($this->option_value_translations as $option_group_name => $translations) {
+      $option_group_result = civicrm_api3('OptionGroup', 'get', array(
+        'name' => $option_group_name
+      ));
+      if (!$option_group_result['is_error'] && $option_group_result['count'] == 1) {
+        $option_group_id = $option_group_result['id'];
+        $result &= $this->translateOptionValues($option_group_id, $translations);
       }
     }
     
+    return $result;
+  }
+  
+  /**
+   * Translates the labels of option values.
+   * 
+   * @param int $option_group_id option group of which the labels should be translated.
+   * @param array $translations key-value array with translations (src => dst)
+   * @return bool TRUE if the CiviCRM API didn't return an error.
+   */
+  protected function translateOptionValues($option_group_id, $translations) {
+    if (!is_int($option_group_id)) {
+      die('$option_group_id should be an integer.');
+    }
+    if (!is_array($translations)) {
+      die('$translations should be an array.');
+    }
+    foreach ($translations as $key => $value) {
+      $update_result = civicrm_api3('OptionValue', 'get', array(
+        'option_group_id' => $option_group_id,
+        'label' => $key,
+        'api.OptionValue.create' => array(
+          'id' => '$value.id',
+          'label' => $value,
+        )
+      ));
+      $result &= !$update_result['is_error'];
+    }
     return $result;
   }
 
@@ -228,21 +247,14 @@ class CRM_Dutch47_Upgrader extends CRM_Dutch47_Upgrader_Base {
     }
     
     // Revert unchanged option values for relative_date_filters
-    $option_group_result = civicrm_api3('OptionGroup', 'get', array(
-      'name' => 'relative_date_filters'
-    ));
-    if (!$option_group_result['is_error'] && $option_group_result['count'] == 1) {
-      $option_group_id = $option_group_result['id'];
-      foreach ($this->option_value_translations as $key => $value) {
-        $update_result = civicrm_api3('OptionValue', 'get', array(
-          'option_group_id' => $option_group_id,
-          'label' => $value,
-          'api.OptionValue.create' => array(
-            'id' => '$value.id',
-            'label' => $key,
-          )
-        ));
-        $result &= !$update_result['is_error'];
+    foreach ($this->option_value_translations as $option_group_name => $translations) {
+      $option_group_result = civicrm_api3('OptionGroup', 'get', array(
+        'name' => $option_group_name
+      ));
+      if (!$option_group_result['is_error'] && $option_group_result['count'] == 1) {
+        $option_group_id = $option_group_result['id'];
+        // Translate the other way round.
+        $result &= $this->translateOptionValues($option_group_id, array_flip($translations));
       }
     }
     
